@@ -1,5 +1,15 @@
 node_modules
 /dist
-/assets/generated
+/pack
 electron-builder.yml
 .vscode/settings.json
+.idea
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.vite-inspect
